@@ -1,0 +1,166 @@
+
+/**********************
+******   FONTS   ******
+**********************/
+
+
+/**********************
+******   HTML5   ******
+**********************/
+
+body {
+	/*background: url('../img/navy_blue_@2X.png');*/
+	background: url('../img/navy_blue.png');
+	color: #eee;
+	letter-spacing: 1px;
+}
+
+/***********************
+******   GLOBALS   *****
+***********************/
+
+a {
+	text-decoration: none;
+	border: none;
+	color: #eee;
+}
+
+.clear {
+	clear: both;
+}
+
+/**********************
+******   HEADER   *****
+**********************/
+
+header {
+	background: -webkit-linear-gradient(#111, #333);
+	background: linear-gradient(to bottom, #111, #333);
+	box-shadow: 10px 10px 25px #111;
+	margin-top: -10px;
+}
+
+header img {
+	float: left;
+	margin: 20px;
+}
+
+header h1 {
+	text-align: center;
+	width: 250px;
+	margin-left: 10px;
+	margin-top: 65px;
+	font-family: 'Lato';
+	font-size: 1.7em;
+	font-weight: 100;
+	letter-spacing: 3px;
+	float: left;
+}
+
+/*menu */
+nav {
+	float: right;
+	margin-top: 70px;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #555;
+	padding: 15px 10px;
+	width: 60px;
+	font-size: 1.5em;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	font-family: 'Helvetica Neue';
+}
+
+nav .active {
+	color: #ddd;
+}
+
+nav a:hover {
+	background: #333;
+	color: #ddd;
+}
+
+.horLine {
+	height: 2px;
+	clear: both;
+	display: block;
+	/*Webkit Gradient*/
+	background: -webkit-linear-gradient(left, rgba(68,68,68,0), #444 25%, #444 75%, rgba(68,68,68,0));
+	background: linear-gradient(to right, rgba(68,68,68,0), #444 25%, #444 75%, rgba(68,68,68,0));
+	margin-bottom: 20px;
+}
+
+/****************************
+******   MAIN CONTENT   *****
+****************************/
+
+#subWrapper {
+	background: -webkit-linear-gradient(rgba(17,17,17,0.6), rgba(34,34,34,0.6));
+	background: linear-gradient(to bottom, rgba(17,17,17,0.6), rgba(34,34,34,0.6));
+	box-shadow: 10px 10px 25px #111;
+	font-family: 'Helvetica Neue', Georgia;
+	font-weight: 200;
+	color: #ddd;
+	font-size: 0.8em;
+	padding: 40px;
+	padding-top: 20px;
+	margin: 30px 0 0;
+	line-height: 21px;
+	height: 900px;
+}
+
+#subWrapper h1 {
+	font-size: 3em;
+	font-weight: 100;
+	line-height: 40px;
+}
+
+.contributor {
+	background: -webkit-linear-gradient(rgba(51,51,51,0.6), rgba(34,34,34,0.6));
+	background: linear-gradient(to bottom, rgba(51,51,51,0.6), rgba(34,34,34,0.6));
+	box-shadow: -10px -10px 25px #111;
+	height: 350px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+.contributor img {
+	display: block;
+	margin: 10px auto;
+	box-shadow: 10px 10px 25px #111;
+}
+
+.contributor h3 {
+	text-align: center;
+}
+
+.contributorDescr {
+	font-style: italic;
+	text-align: center;
+}
+
+.horizontal img {
+	margin: 55px auto;
+}
+
+
+
+footer {
+	font-family: 'Helvetica Neue';
+	font-size: 1em;
+	font-weight: 100;
+}
+
+#footer-copyright {
+	float: left;
+}
+
+#footer-DesignBy {
+	float: right;
+}
+
+

@@ -1,0 +1,220 @@
+
+/**********************
+******   FONTS   ******
+**********************/
+
+
+/**********************
+******   HTML5   ******
+**********************/
+
+body {
+	/*background: url('../img/navy_blue_@2X.png');*/
+	background: url('../img/navy_blue.png');
+	color: #eee;
+	font-family: 'goudy';
+	letter-spacing: 1px;
+}
+
+/***********************
+******   GLOBALS   *****
+***********************/
+
+a {
+	text-decoration: none;
+	border: none;
+	color: #eee;
+}
+
+.clear {
+	clear: both;
+}
+
+/**********************
+******   HEADER   *****
+**********************/
+
+header {
+	background: -webkit-linear-gradient(#111, #333);
+	background: linear-gradient(to bottom, #111, #333);
+	box-shadow: 10px 10px 25px #111;
+	margin-top: -10px;
+}
+
+header img {
+	float: left;
+	margin: 20px;
+}
+
+header h1 {
+	text-align: center;
+	width: 250px;
+	margin-left: 10px;
+	margin-top: 65px;
+	font-family: 'Lato';
+	font-size: 1.7em;
+	letter-spacing: 3px;
+	float: left;
+}
+
+/*menu */
+nav {
+	float: right;
+	margin-top: 70px;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #555;
+	padding: 15px 10px;
+	width: 60px;
+	font-size: 1.5em;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	font-family: 'Helvetica Neue';
+}
+
+nav .active {
+	color: #ddd;
+}
+
+nav a:hover {
+	background: #333;
+	color: #ddd;
+}
+
+
+/*Intro*/
+
+#mainWrapper {
+	clear: both;
+	margin-top: 50px;
+	height: 400px;
+}
+
+#mainImg {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 10px 10px 25px #111;
+}
+
+#mainText {
+	width: 350px;
+	margin-top: -200px;
+	margin-left: 250px;
+	font-family: 'Lato';
+	font-size: 1.4em;
+	font-style: italic;
+	padding: 60px 0 80px 0px;
+	text-shadow: 2px 2px #000;
+}
+
+
+/****************************
+******   MAIN CONTENT   *****
+****************************/
+
+#wrapper {
+	margin-top: 70px;
+	margin-bottom: 400px;
+}
+
+#mainTitle {
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	font-size: 2em;
+	font-weight: 100;
+}
+
+.horLine {
+	margin: 30px 0;
+	height: 2px;
+	clear: both;
+	display: block;
+	/*Webkit Gradient*/
+	background: -webkit-linear-gradient(left, rgba(68,68,68,0), #444 25%, #444 75%, rgba(68,68,68,0));
+	background: linear-gradient(to right, rgba(68,68,68,0), #444 25%, #444 75%, rgba(68,68,68,0));
+}
+
+.condensedHorLine {
+	margin: 10px 0;
+	height: 2px;
+	clear: both;
+	display: block;
+	/*Webkit Gradient*/
+	background: -webkit-linear-gradient(left, rgba(68,68,68,0), #444 25%, #444 75%, rgba(68,68,68,0));	
+	background: linear-gradient(to right, rgba(68,68,68,0), #444 25%, #444 75%, rgba(68,68,68,0));
+}
+
+.recentContent {
+	background: -webkit-linear-gradient(rgba(17,17,17,0.6), rgba(34,34,34,0.6));
+	background: linear-gradient(to bottom, rgba(17,17,17,0.6), rgba(34,34,34,0.6));
+	box-shadow: 10px 10px 25px #111;
+	font-family: 'Helvetica Neue', Georgia, 'Lato';
+	font-weight: 200;
+	color: #999;
+	font-size: 0.8em;
+	line-height: 21px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+}
+
+.mainDescr {
+	margin-left: 40px;
+}
+
+.recentContent h2 {
+	margin-top: 40px;
+	font-weight: 200;
+	color: #ddd;
+}
+
+.recentContent h2 a {
+	font-weight: 200;	
+	color: #ddd;
+}
+
+.recentContent h3 {
+	font-weight: 600;	
+	color: #ddd;
+}
+
+.recentContent h5 {
+	margin-top: -10px;
+	color: #666;
+	font-style: italic;
+}
+
+.recentContent p a {
+	color: #666;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.recentContent p {
+	color: #ddd;
+}
+
+.recentContent img {
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	box-shadow: 3px 3px 10px #111;
+}
+
+footer {
+	font-family: 'Helvetica Neue';
+	font-size: 1em;
+	font-weight: 100;
+}
+
+#footer-copyright {
+	float: left;
+}
+
+#footer-DesignBy {
+	float: right;
+}
+
